@@ -1,0 +1,10 @@
+{
+  "name" : "aquarium-",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "288e8bebf4ca67c1f8ebd49366b03650cfd9eb7d",
+  "dependencies" : [ {
+    "name" : "sdl2",
+    "version>=" : "2.26.5",
+    "$comment" : "    find_package(SDL2 CONFIG REQUIRED)\n\n    target_link_libraries(main\n\n        PRIVATE\n\n        $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>\n\n        $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>\n\n    )\n"
+  } ]
+}
